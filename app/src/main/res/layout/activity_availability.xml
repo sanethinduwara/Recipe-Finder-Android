@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".Availability">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="@string/available_products"
+        android:layout_marginStart="35dp" />
+
+    <ImageView
+        android:id="@+id/hr"
+        android:layout_below="@id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#B3FFFFFF"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal">
+
+    </ImageView>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_below="@id/hr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/button"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:divider="@android:color/transparent"
+        android:requiresFadingEdge="vertical"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:onClick="setAvailability"
+        android:text="@string/save"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        style="@style/buttonStyle"
+        />
+</RelativeLayout>

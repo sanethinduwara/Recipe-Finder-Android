@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="search_here">Search Here</string>
+    <string name="lookup">Lookup</string>
+    <string name="add_to_kitchen">Add to Kitchen</string>
+    <string name="all_products">All Products</string>
+    <string name="save">Save Changes</string>
+    <string name="available_products">Available Products</string>
+    <string name="search_products">Search Products</string>
+    <string name="update_product">Update Product</string>
+    <string name="register_nproduct">Register\nProduct</string>
+    <string name="display_nproducts">Display\nProducts</string>
+    <string name="availa_n_bility">Availa\n-bility</string>
+    <string name="edit_nproducts">Edit\nProducts</string>
+    <string name="search">Search</string>
+    <string name="recipes">Recipes</string>
+    <string name="slogan">Let\'s Plan Your Meals ...</string>
+    <string name="name">Name</string>
+    <string name="name_of_the_product">Name of the Product</string>
+    <string name="weight_g">Weight (g)</string>
+    <string name="weight_of_the_product">Weight of the Product</string>
+    <string name="price">Price (£)</string>
+    <string name="price_of_the_product">Price of the Product</string>
+    <string name="description">Description</string>
+    <string name="product_description">Product Description</string>
+    <string name="availability">Availability</string>
+    <string name="update">Update</string>
+    <string name="finding_recipes">Finding Recipes…</string>
+    <string name="find_recipes">Find Recipes</string>
+    <string name="register_product">Register Product</string>
+    <string name="save_product">Save Product</string>
+
+    <string-array name="spinnerOptions">
+        <item>Available</item>
+        <item>Not Available</item>
+    </string-array>
+</resources>
